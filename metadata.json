@@ -1,0 +1,6 @@
+{
+  "name": "CardioBot - Asistente de Cardiología",
+  "description": "Chatbot especializado en cardiología que responde dudas frecuentes de pacientes sobre presión arterial, arritmias, síntomas y salud cardiovascular.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
