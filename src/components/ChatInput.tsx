@@ -7,10 +7,14 @@ interface ChatInputProps {
 }
 
 const RECOMMENDED_QUESTIONS = [
-  '¿Qué valores de presión son normales?',
+  '¿Qué valores de presión arterial son normales?',
   '¿Por qué dan palpitaciones o un salto en el pecho?',
   '¿Cómo saber si un dolor de pecho es peligroso?',
-  '¿Qué alimentos ayudan a bajar la presión?',
+  '¿Qué significa tener el colesterol LDL alto?',
+  '¿Qué detecta un electrocardiograma (ECG)?',
+  '¿Cuáles son los síntomas de insuficiencia cardíaca?',
+  '¿Qué alimentos y hábitos ayudan a bajar la presión?',
+  '¿Cómo diferenciar angina de pecho de ansiedad o reflujo?',
 ];
 
 export default function ChatInput({ onSendMessage, isLoading }: ChatInputProps) {

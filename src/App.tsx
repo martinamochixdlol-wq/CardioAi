@@ -13,15 +13,25 @@ import { HeartPulse, AlertCircle } from 'lucide-react';
 const INITIAL_WELCOME_MESSAGE: ChatMessage = {
   id: 'welcome-msg',
   role: 'assistant',
-  content: `¡Hola! Soy **CardioBot**, tu asistente sobre salud del corazón y cardiología.
+  content: `¡Hola! Soy **CardioBot**, tu asistente virtual especializado en salud cardiovascular y cardiología.
 
-¿En qué consulta sobre tu corazón, presión arterial, síntomas o estudios puedo ayudarte hoy?`,
+Puedo responder **todas tus preguntas sobre cardiología**:
+• **Síntomas y alertas:** dolor torácico, palpitaciones, disnea, mareos o edemas.
+• **Presión arterial:** valores normales, crisis, hipertensión y mediciones correctas.
+• **Ritmo cardíaco y ECG:** taquicardias, extrasístoles, fibrilación auricular y estudios.
+• **Colesterol y arterias:** placas de ateroma, triglicéridos, prevención de infartos y estatinas.
+• **Insuficiencia cardíaca y válvulas:** causas, signos de alerta y tratamientos.
+• **Estilo de vida y ejercicio:** dieta DASH/mediterránea, ejercicio seguro y factores de riesgo.
+
+¿Qué duda o consulta sobre tu corazón o cardiología deseas resolver?`,
   timestamp: 'Ahora',
   suggestedFollowUps: [
-    '¿Qué valores de presión son normales?',
+    '¿Qué valores de presión arterial son normales?',
     '¿Por qué dan palpitaciones o un salto en el pecho?',
     '¿Cómo saber si un dolor de pecho es peligroso?',
-    '¿Qué alimentos ayudan a bajar la presión?',
+    '¿Qué significa tener el colesterol LDL alto?',
+    '¿Qué detecta un electrocardiograma (ECG)?',
+    '¿Cuáles son los síntomas de insuficiencia cardíaca?',
   ],
 };
 
